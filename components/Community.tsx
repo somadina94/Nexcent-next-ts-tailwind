@@ -6,7 +6,7 @@ import clubs from "../assets/clubs.png";
 
 export default function Community() {
   return (
-    <div className="flex flex-col items-center p-2">
+    <div className="flex flex-col items-center p-2 dark:bg-gray-900">
       <div className="flex flex-col items-center text-center max-w-sm">
         <h2 className="mb-4">
           Manage your entire community in a single system

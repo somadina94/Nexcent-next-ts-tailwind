@@ -9,14 +9,14 @@ import send from "../assets/send.svg";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col mt-24 bg-gray-300">
+    <div className="flex flex-col mt-2 bg-gray-300 dark:bg-gray-800">
       <div className="max-w-md flex flex-col items-center self-center text-center space-y-4 py-4">
         <h1>Pellentesque suscipit fringilla libero eu.</h1>
         <a className="link" href="#">
           Get a demo &rarr;
         </a>
       </div>
-      <div className="px-6 lg:px-28 py-12 flex flex-col md:flex-row justify-between bg-gray-800 space-y-3 md:space-y-0 text-white">
+      <div className="px-6 lg:px-28 py-12 flex flex-col md:flex-row justify-between bg-gray-950 space-y-3 md:space-y-0 text-white">
         <div className="space-y-8">
           <LogoSvg />
           <p className="flex flex-col">

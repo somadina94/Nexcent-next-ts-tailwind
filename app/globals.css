@@ -5,6 +5,8 @@
   --font-abel: "Abel", "sans-serif";
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -36,6 +38,7 @@
   -moz-transition: all 1s;
   -ms-transition: all 1s;
   -o-transition: all 1s;
+  @apply dark:bg-white;
 }
 
 .hamburger-middle {
@@ -112,4 +115,12 @@ h4 {
 
 p {
   font-size: 14px;
+}
+
+.moon {
+  color: #a9e34b;
+}
+
+.sun {
+  color: #fab005;
 }

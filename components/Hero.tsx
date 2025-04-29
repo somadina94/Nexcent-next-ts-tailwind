@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       {/* Hero */}
-      <div className="px-12 md:px-24 py-16 flex justify-between flex-col-reverse md:flex-row items-center bg-gray-200">
+      <div className="px-12 md:px-24 py-16 flex justify-between flex-col-reverse md:flex-row items-center bg-gray-200 dark:bg-gray-900">
         <div className="flex flex-col gap-5 items-start">
           <h1 className="font-semibold text-2xl md:text-5xl">
             Lessons and insights <br />

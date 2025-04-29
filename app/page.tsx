@@ -11,7 +11,7 @@ import Statistics from "../components/Statistics";
 
 function Home() {
   return (
-    <div className="font-abel">
+    <div className="font-abel dark:text-white dark:bg-gray-950">
       <Header />
       <div className="space-y-12">
         <Hero />

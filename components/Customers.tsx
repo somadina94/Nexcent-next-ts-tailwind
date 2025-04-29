@@ -10,7 +10,7 @@ import f6 from "../assets/f6.png";
 
 export default function Customers() {
   return (
-    <div className="px-4 lg:px-24 py-4 flex flex-col md:flex-row items-center justify-center md:space-x-12 bg-gray-200">
+    <div className="px-4 lg:px-24 py-4 flex flex-col md:flex-row items-center justify-center md:space-x-12 bg-gray-200 dark:bg-gray-900">
       <div className="w-56 h-56 flex-shrink-0">
         <Image
           className="w-full h-full object-contain"

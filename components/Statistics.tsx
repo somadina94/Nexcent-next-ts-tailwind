@@ -7,7 +7,7 @@ import icon4 from "../assets/Icon4.png";
 
 export default function Statistics() {
   return (
-    <div className="flex flex-col md:flex-row justify-between space-y-6 items-center px-6 md:px-24 py-12 bg-gray-300">
+    <div className="flex flex-col md:flex-row justify-between space-y-6 items-center px-6 md:px-24 py-12 bg-gray-300 dark:bg-gray-900">
       <div className="text-center md:text-start">
         <h2>
           Helping a local
