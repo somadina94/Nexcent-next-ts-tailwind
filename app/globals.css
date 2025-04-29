@@ -7,6 +7,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+html {
+  @apply dark:bg-gray-950;
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;
