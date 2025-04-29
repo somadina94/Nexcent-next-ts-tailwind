@@ -41,7 +41,7 @@ export default function Header() {
   }
 
   return (
-    <div className="z-10 px-4 md:px-24 py-3 flex justify-between items-center sticky top-0 bg-white dark:bg-gray-950">
+    <div className="z-10 px-4 lg:px-24 py-3 flex justify-between items-center sticky top-0 bg-white dark:bg-gray-950">
       {/* logo */}
       <div className="w-28 h-4 dark:hidden">
         <Image className="w-full h-full" src={logo} alt="logo" />
